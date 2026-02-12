@@ -15,9 +15,23 @@ Servidor MCP (Model Context Protocol) para auxiliar organizações e desenvolved
 
 ## Instalação
 
+### Via npm (recomendado)
+
 ```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/lgpd-mcp.git
+npx @LordMendes/lgpd-mcp
+```
+
+Ou instale globalmente:
+
+```bash
+npm install -g @LordMendes/lgpd-mcp
+lgpd-mcp
+```
+
+### Via repositório
+
+```bash
+git clone https://github.com/LordMendes/lgpd-mcp.git
 cd lgpd-mcp
 
 # Instale as dependências
@@ -25,7 +39,7 @@ pnpm install
 # ou: npm install
 # ou: yarn install
 
-# Compile o projeto (opcional, para produção)
+# Compile o projeto (obrigatório para produção)
 pnpm build
 ```
 
@@ -36,6 +50,10 @@ pnpm build
 O servidor é executado via stdio e espera conexões de clientes MCP (Cursor, Claude Desktop, etc.):
 
 ```bash
+# Se instalado via npm
+npx @LordMendes/lgpd-mcp
+
+# Desenvolvimento local
 npx tsx src/index.ts
 ```
 
@@ -77,6 +95,7 @@ Consulte `.env.example` para referência.
 
 ## Documentação
 
+- [Publicação (Publishing)](docs/PUBLISHING.md) — como publicar no npm e MCP Registry
 - [Ferramentas (Tools)](docs/TOOLS.md) — descrição de cada tool
 - [Recursos (Resources)](docs/RESOURCES.md) — descrição de cada resource
 - [Prompts](docs/PROMPTS.md) — descrição de cada prompt

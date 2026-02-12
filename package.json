@@ -1,12 +1,13 @@
 {
-  "name": "lgpd-mcp",
+  "name": "@LordMendes/lgpd-mcp",
   "version": "0.1.0",
-  "description": "MCP Server para auxiliar na conformidade com a LGPD",
+  "description": "MCP Server para auxiliar na conformidade com a LGPD (Lei Geral de Proteção de Dados Pessoais)",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
     "lgpd-mcp": "dist/index.js"
   },
+  "mcpName": "io.github.LordMendes/lgpd-mcp",
   "engines": {
     "node": ">=18"
   },
@@ -25,10 +26,28 @@
   "keywords": [
     "mcp",
     "lgpd",
-    "proteção de dados"
+    "proteção de dados",
+    "model-context-protocol",
+    "privacy",
+    "gdpr",
+    "compliance"
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LordMendes/lgpd-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LordMendes/lgpd-mcp/issues"
+  },
+  "homepage": "https://github.com/LordMendes/lgpd-mcp#readme",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "zod": "^4.3.6"
