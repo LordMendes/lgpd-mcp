@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "lgpd-mcp": {
+      "command": "npx",
+      "args": ["-y", "tsx", "src/index.ts"]
+    }
+  }
+}
