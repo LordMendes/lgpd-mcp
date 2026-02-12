@@ -34,5 +34,5 @@ mcp-publisher publish
 
 ## Verificação
 
-- **npm:** https://www.npmjs.com/package/@LordMendes/lgpd-mcp
+- **npm:** https://www.npmjs.com/package/@lordmendes/lgpd-mcp
 - **MCP Registry:** https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.LordMendes/lgpd-mcp

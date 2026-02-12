@@ -18,13 +18,13 @@ Servidor MCP (Model Context Protocol) para auxiliar organizações e desenvolved
 ### Via npm (recomendado)
 
 ```bash
-npx @LordMendes/lgpd-mcp
+npx @lordmendes/lgpd-mcp
 ```
 
 Ou instale globalmente:
 
 ```bash
-npm install -g @LordMendes/lgpd-mcp
+npm install -g @lordmendes/lgpd-mcp
 lgpd-mcp
 ```
 
@@ -51,7 +51,7 @@ O servidor é executado via stdio e espera conexões de clientes MCP (Cursor, Cl
 
 ```bash
 # Se instalado via npm
-npx @LordMendes/lgpd-mcp
+npx @lordmendes/lgpd-mcp
 
 # Desenvolvimento local
 npx tsx src/index.ts

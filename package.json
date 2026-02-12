@@ -1,5 +1,5 @@
 {
-  "name": "@LordMendes/lgpd-mcp",
+  "name": "@lordmendes/lgpd-mcp",
   "version": "0.1.0",
   "description": "MCP Server para auxiliar na conformidade com a LGPD (Lei Geral de Proteção de Dados Pessoais)",
   "type": "module",
