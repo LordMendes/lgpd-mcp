@@ -1,6 +1,6 @@
 {
   "name": "@lordmendes/lgpd-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP Server para auxiliar na conformidade com a LGPD (Lei Geral de Proteção de Dados Pessoais)",
   "type": "module",
   "main": "dist/index.js",
