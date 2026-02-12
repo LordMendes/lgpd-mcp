@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.LordMendes/lgpd-mcp",
-  "description": "MCP Server para auxiliar na conformidade com a LGPD (Lei Geral de Proteção de Dados Pessoais). Inclui ferramentas para validação de bases legais, consentimento, modelos de documentos, PIA, checklist, políticas e direitos do titular.",
+  "description": "MCP Server para conformidade LGPD. Ferramentas de bases legais, consentimento, PIA e políticas.",
   "repository": {
     "url": "https://github.com/LordMendes/lgpd-mcp",
     "source": "github"
